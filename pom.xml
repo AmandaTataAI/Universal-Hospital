@@ -72,20 +72,5 @@
 
 		</plugins>
 	</build>
-	<build>
-		<plugins>
-			...
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M5</version>
-				<configuration>
-					<excludes>
-						<exclude>some test to exclude here</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
