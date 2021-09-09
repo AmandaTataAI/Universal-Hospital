@@ -1,0 +1,50 @@
+<!doctype html>
+<html xmlns:="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+
+      <link th:href="@{/css/style.css}" rel="stylesheet">
+    <title>Universal Hospital</title>
+
+  </head>
+  <body>
+      <div class="module">
+  <div class="module-inside">
+   
+ 
+    <h1 id="main">UNIVERSAL HOSPITAL</h1>
+      <div class="circle">UH</div>
+      <div>
+      <h2 id="main2">Kenya's No.1 Online Hospital</h2></div>
+      <div class="blur"></div>
+      <div class="block block_1">
+      </div>
+     
+      <div>
+      <a href="#buttons">
+      <button id="button" class="button" style="background-color: red"> <div class="arrowdown"></div></button>
+      </a></div>
+      
+      <div>
+      
+      <div id="buttons" class="buttons" >
+
+        <a th:href="@{/Registration}"><button id="button2" class="button1" style="background-color: skyblue">Sign Up</button></a>
+        <a th:href="@{/Login}"><button id="button4" class="button1" style="background-color: skyblue">Log In</button></a>
+          <p id="paragraph">If you feel like our doctors are not right for you, you can choose to find the nearest registered hospital</p>
+          <a href="http://kmhfl.health.go.ke/#/facility_filter" target="_blank"><button id="button5" class="button1" style="background-color: skyblue">Find hospitals</button></a>
+         
+</div>
+      </div>
+       </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  </body>
+</html>

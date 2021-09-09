@@ -1,0 +1,41 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link th:href="@{/css/STYLE.css}" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="menu" id="menu">
+    <a th:href="@{/DoctorPatients}">Patients &emsp; &emsp;</a>
+    <a th:href="@{/DoctorPharmacy}"> Pharmacy &emsp; &emsp;</a>
+    <a th:href="@{/DoctorAppointments}">Appointments &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; </a>
+
+    <div class="dropdown" style="float:left;">
+        <button class="dropbutton"><div sec:authentication="name"></div></button>
+        <div class="dropdown-content" style="left:0;">
+
+            <a th:href="@{/DoctorAccount}">Account</a>
+
+            <a th:href="@{/DoctorMessages}">Messages</a>
+            <a th:href="@{/DoctorNotifications}">Notifications</a>
+            <ul class="nav navbar-nav">
+                <li sec:authorize="isAuthenticated()"><a th:href="@{/logout}">Logout</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div><label id="general" style="background-color: red">Account</label></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>

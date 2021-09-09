@@ -1,0 +1,99 @@
+ .menu{
+              align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+              width: 1480px;
+              height: 100px;
+              font-size: 70px;
+              font-weight:900;
+              color: red;
+              background-image:url("doctor.jpg");
+          }
+
+          .form{
+               background-color: red;
+              width: 1000px;
+              height: 600px;
+              margin-top: 10px;
+              margin-left: 250px;
+          }
+          #fname{
+              margin-top: 70px;
+              margin-left: 110px;
+              width: 350px;
+          }
+          #lname{
+              margin-left: 100px;
+              width: 350px;
+          }
+          #phone{
+              margin-top: 30px;
+               margin-left: 110px;
+              width: 350px;
+          }
+          #email{
+              margin-top: 30px;
+               margin-left: 110px;
+              width: 350px;
+          }
+          #password{
+              margin-top: 30px;
+               margin-left: 110px;
+              width: 350px;
+          }
+          #cpassword{
+              margin-left: 100px;
+              width: 350px;
+          }
+          #address{
+              margin-top: 30px;
+               margin-left: 110px;
+              width: 350px;
+          }
+          #hname{
+              margin-top: 30px;
+               margin-left: 110px;
+              width: 350px;
+          }
+          #haddress{
+               margin-left: 100px;
+              width: 350px;
+          }
+          #profession{
+              margin-top: 30px;
+               margin-left: 110px;
+              width: 350px;
+          }
+          #years{
+              margin-top: 30px;
+               margin-left: 110px;
+              width: 350px;
+          }
+            .button{
+
+                     align-self:center;
+                       align-items: center;
+                     align-content: center;
+                       display: flex;
+                       justify-content: center;
+                       padding: 30px;
+                       border-radius: 30%;
+                     width: 150px;
+                          height: 30px;
+                          font-size: 20px;
+                          margin-top: 40px;
+                          margin-left: 420px;
+
+
+                   }
+        #login{
+         font-size: 20px;
+
+        }
+
+         a{
+              color: inherit;
+              text-decoration: inherit;
+          }

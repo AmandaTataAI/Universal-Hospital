@@ -1,0 +1,62 @@
+ .menu{
+              align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+              width: 1480px;
+              height: 100px;
+              background-image: url("blackdoctor.jpg");
+              font-size: 70px;
+              font-weight:900;
+              color: red;
+          }
+          #main{
+          font-size: 20px;
+          }
+          #registration{
+          font-size: 20px;
+          }
+
+          .form{
+               background-color: red;
+              width: 1000px;
+              height: 600px;
+              margin-top: 10px;
+              margin-left: 250px;
+          }
+          #username{
+              margin-top: 150px;
+              margin-left: 300px;
+              width: 400px;
+          }
+
+          #password{
+              margin-top: 100px;
+               margin-left: 300px;
+              width: 400px;
+          }
+
+           .button{
+
+          align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            border-radius: 30%;
+          width: 150px;
+               height: 30px;
+               font-size: 20px;
+               margin-top: 80px;
+               margin-left: 420px;
+
+
+        }
+
+         a{
+              color: inherit;
+              text-decoration: inherit;
+          }
+

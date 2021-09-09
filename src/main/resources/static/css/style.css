@@ -1,0 +1,154 @@
+ html{
+            scroll-behavior: smooth;
+             background-image: url("beautifulblackdoctors.jpg");
+                      background-size: cover;
+                      background-repeat: no-repeat;
+                      background-color: red;
+
+
+        }
+
+        #main{
+
+            font-size: 100px;
+            text-align: center;
+            color: red;
+            margin-top: 10px;
+            margin-left: 100px;
+            filter: saturate(var(--value,4));
+
+        }
+        .circle{
+             align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 120px 60px;
+            margin: auto;
+            text-align:center;
+            font-size:150px;
+            justify-content: center;
+            color: red;
+            margin-top: 50px;
+            margin-left: 600px;
+            filter: saturate(var(--value,4));
+
+        }
+        #main2{
+
+            font-size: 50px;
+            text-align: center;
+            margin-top: 80px;
+            margin-left: 100px;
+            color: red;
+            filter: saturate(var(--value,4));
+        }
+
+        .arrowdown{
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg)
+        }
+
+         a{
+              color: black;
+              text-decoration: black;
+          }
+      #button{
+
+          align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 50%;
+          width: 10px;
+          height: 10px;
+          margin-left: 735px;
+           color: red;
+
+
+        }
+           .button1{
+
+          align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            border-radius: 30%;
+          width: 400px;
+               font-size: 30px;
+
+
+
+        }
+        #button1{
+            margin-top: 60px;
+            margin-left: 100px;
+
+
+
+        }
+          #button2{
+              align-self: flex-end;
+            margin-top: 500px;
+              margin-left: 100px;
+
+
+          }
+          #button3{
+              margin-left: 1000px;
+              margin-top: -240px;
+
+
+          }
+        #button4{
+              margin-left: 1000px;
+              margin-top: -100px;
+
+          }
+                .module {
+          width: 300px;
+          height: 300px;
+          display: grid;
+          place-items: center;
+          color: #ff43ea;
+          position: relative;
+        }
+        .module::before {
+          content: "";
+          top: 0;
+          left: 0;
+          width: 495%;
+          height: 500%;
+          position: absolute;
+          filter: saturate(var(--value,2));
+
+        }
+
+        .module-inside {
+          position: relative;
+          font: bold 42px sans-serif;
+        }
+        #paragraph{
+             align-self:center;
+            align-items: center;
+          align-content: center;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 40px;
+            color: skyblue;
+        }
+        #button5{
+            margin-left: 550px;
+        }
